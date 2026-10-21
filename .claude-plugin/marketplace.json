@@ -1,0 +1,12 @@
+{
+  "name": "legal-intake-plugins",
+  "description": "Matter intake skills for litigators and arbitration practitioners",
+  "owner": { "name": "GA Fourie SC" },
+  "plugins": [
+    {
+      "name": "legal-matter-intake",
+      "source": "./plugins/legal-matter-intake",
+      "description": "Set up storage, jurisdiction and case-law sources; scaffold matters; route new documents; extract PDFs and emails; fetch and verify judgments; index the matter."
+    }
+  ]
+}

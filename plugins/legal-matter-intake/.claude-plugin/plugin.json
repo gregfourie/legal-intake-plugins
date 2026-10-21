@@ -1,0 +1,8 @@
+{
+  "name": "legal-matter-intake",
+  "version": "1.0.0",
+  "description": "Matter intake for litigators and arbitration practitioners in any jurisdiction: one-time setup of storage, jurisdiction and free case-law sources; scaffold a matter folder; route new documents from an _inbox with an approval gate; turn PDFs, scans and emails into reliable text; fetch and verify judgments; build a matter index.",
+  "author": { "name": "GA Fourie SC" },
+  "license": "MIT",
+  "keywords": ["legal", "litigation", "arbitration", "intake", "pdf", "ocr", "email", "case law", "index"]
+}

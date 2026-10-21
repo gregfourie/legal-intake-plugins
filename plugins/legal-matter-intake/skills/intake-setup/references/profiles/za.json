@@ -1,0 +1,26 @@
+{
+  "code": "za",
+  "name": "South Africa",
+  "tribunals": [
+    "CONSTITUTIONAL COURT",
+    "SUPREME COURT OF APPEAL",
+    "LABOUR APPEAL COURT",
+    "LABOUR COURT",
+    "HIGH COURT",
+    "MAGISTRATE",
+    "CCMA",
+    "AFSA",
+    "NBCRFLI",
+    "BARGAINING COUNCIL"
+  ],
+  "case_ref_patterns": [
+    "\\b(?:CASE\\s*(?:NO|NUMBER)[.:\\s]*)?((?:J[RSA]?|C|D|P|JR|JS|LCC)\\s?\\d{1,5}/\\d{2,4}|\\d{4,6}/\\d{2,4})\\b"
+  ],
+  "judgment_source_markers": [
+    "saflii"
+  ],
+  "judgment_patterns": [
+    "\\[\\d{4}\\]\\s*za[a-z]+\\s*\\d+"
+  ],
+  "own_authors": []
+}

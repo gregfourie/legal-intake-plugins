@@ -1,0 +1,16 @@
+{
+  "code": "<two-letter code>",
+  "name": "<jurisdiction>",
+  "tribunals": [],
+  "case_ref_patterns": [],
+  "judgment_source_markers": [],
+  "judgment_patterns": [],
+  "own_authors": [],
+  "_help": {
+    "tribunals": "Court and tribunal names exactly as they appear on document headings (any case).",
+    "case_ref_patterns": "Python regexes for case numbers; first capture group is the number. Test on real examples.",
+    "judgment_source_markers": "Lower-case words printed on judgments downloaded from free sources (e.g. 'bailii').",
+    "judgment_patterns": "Python regexes, matched case-insensitively, that identify a judgment (e.g. a neutral citation form).",
+    "own_authors": "Filled by setup: the user's names as Word author."
+  }
+}
